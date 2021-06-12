@@ -25,16 +25,16 @@ i386_init(void)
 	cons_init();
 
 	cprintf("6828 decimal is %o octal!\n", 6828);
-<<<<<<< HEAD
+
 
 	// Lab 2 memory management initialization functions
 	mem_init();
-=======
+
 	unsigned int i = 0x00646c72;
 	cprintf("H%x Wo%s", 57616, &i);
 	// Test the stack backtrace function (lab 1 only)
-	test_backtrace(5);
->>>>>>> main
+
+
 
 	// Drop into the kernel monitor.
 	while (1)
